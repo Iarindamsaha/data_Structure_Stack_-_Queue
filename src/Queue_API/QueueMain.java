@@ -18,6 +18,22 @@ public class QueueMain {
         System.out.println(queue1);
         System.out.println("Queue Head : " + queue1.peek());
 
+        System.out.println("---UC4---");
+
+        System.out.println("After Delete " + queue1);
+        System.out.println("Deleted Item is : " + queue1.poll());
+        System.out.println("After Delete " + queue1);
+        System.out.println("Deleted Item is : " + queue1.poll());
+        System.out.println("After Delete" + queue1);
+        System.out.println("Deleted Item is : " + queue1.poll());
+
+        if(queue1.peek() == null){
+            System.out.println("The Queue Is Empty");
+        }
+        else {
+            System.out.println("The Queue Is Not Empty || Queue Head Is : " + queue1.peek());
+        }
+
 
 
     }
